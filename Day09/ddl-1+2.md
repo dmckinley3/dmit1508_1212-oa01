@@ -4,9 +4,9 @@
 1. Create a script that will create the following 3 tables:<br>
 ![create-table-1.png](images/create-table-1.png)<br>
 <ol type="a">
-    <li>use appropriate data types</li>
-    <li>do not worry about PKs or FKs</li>
-    <li>do not allow NULLs in any column</li>
+    <li>Use appropriate data types</li>
+    <li>Do not worry about PKs or FKs</li>
+    <li>Do not allow NULLs in any column</li>
     <li>EmployeeIDs are 11 characters long</li>
     <li>Use the IDENTITY property for the ProjectNumber in the Project table but not in the EmployeeProject table. (Why?)</li>
 </ol>

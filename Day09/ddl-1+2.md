@@ -25,3 +25,8 @@
 ```sql
 
 ```
+
+## Create Table Exercise Solution
+```sql
+
+```

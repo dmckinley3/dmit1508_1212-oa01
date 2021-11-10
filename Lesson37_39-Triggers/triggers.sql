@@ -43,7 +43,6 @@
         | OldBalance | DECIMAL(7,2) |
         | NewBalance | DECIMAL(7,2) |
         +------------+--------------+
-
 */
 
 

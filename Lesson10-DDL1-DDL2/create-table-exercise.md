@@ -3,7 +3,7 @@ Given the following ERD, create all 5 tables with the appropriate primary and fo
 ![CreateTable_ERD](images/CreateTable_ERD.jpg)
 
 | COLUMN NAME | DOMAIN LIMIT(S) | REQUIRED |
-|-------------|-----------------|----------|
+|-------------|-----------------|    --:|
 | StudentID |  | YES |
 | StudentFirstName |  | YES |
 | StudentLastName |  | YES |
@@ -11,7 +11,7 @@ Given the following ERD, create all 5 tables with the appropriate primary and fo
 | Address |  | NO |
 | Birthdate |  | NO |
 | PostalCode | A9A9A9 | NO
-| AvgMark | Between 0 and 100 | NO |
+| AvgMark | Between 0 and 100 | NO | 
 | NumberOfCourses | >=0, Default = 0 | NO |
 |   |   |  |
 | CourseID |   | YES |

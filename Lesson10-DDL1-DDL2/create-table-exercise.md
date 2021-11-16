@@ -3,7 +3,7 @@ Given the following ERD, create all 5 tables with the appropriate primary and fo
 ![CreateTable_ERD](images/CreateTable_ERD.jpg)
 
 | COLUMN NAME | DOMAIN LIMIT(S) | REQUIRED |
-|-------------|-----------------|    --:|
+|-------------|-----------------| :----:|
 | StudentID |  | YES |
 | StudentFirstName |  | YES |
 | StudentLastName |  | YES |

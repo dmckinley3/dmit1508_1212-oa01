@@ -49,3 +49,9 @@ For this exercise you will need a local copy of the IQSchool database.
 ```sql
 
 ```
+
+9. Create a stored procedure called ‘AddPositionType’ that accepts a position description as a parameter. If the position description already exists, raise an error. If there are no errors, select the new PositionTypeID.<br>
+
+```sql
+
+```

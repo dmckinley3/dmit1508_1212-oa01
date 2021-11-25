@@ -35,3 +35,8 @@
 --8. Create a stored procedure called ‘WithdrawStudent’ that accepts a StudentID, and OfferingCode
 --   as parameters. Withdraw the student by updating their Withdrawn value to ‘Y’ and subtract ½ of
 --   the cost of the course from their balance. If the result would be a negative balance set it to 0.
+
+
+--9. Create a stored procedure called ‘AddPositionType’ that accepts a position description as a
+--   parameter. If the position description already exists, raise an error. If there are no errors,
+--   select the new PositionTypeID.

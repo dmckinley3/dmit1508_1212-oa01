@@ -39,5 +39,4 @@
 
 --9. Create a stored procedure called ‘AddPositionType’ that accepts a position description as a
 --   parameter. If the position description already exists, raise an error. Otherwise add a new
---   record to the Position table. If there are no errors, add the new position type and select the
---   new PositionTypeID.
+--   record to the Position table. If there are no errors, select the new PositionTypeID.

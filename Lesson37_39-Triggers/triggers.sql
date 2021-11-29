@@ -5,10 +5,10 @@
 --    a. display the contents of the INSERTED table
 --    b. display the contents of the DELETED table
 --    c. display the contents of the Base table
---2. Issue a `ROLLBACK TRANSACTION`
+--2. Issue a ROLLBACK TRANSACTION
 --    a. display the contents of the INSERTED table after the ROLLBACK
---    b. display the contents of the **`DELETED` table after the ROLLBACK
---    c. display the contents of the **base table after the ROLLBACK
+--    b. display the contents of the DELETED table after the ROLLBACK
+--    c. display the contents of the base table after the ROLLBACK
 --3. Issue an informational message to indicate the completion of the trigger
 
 
@@ -20,7 +20,7 @@
 
 
 --Practice Q #2
---Create a trigger to enforce a rule that CharacterWages` must be >= 0.
+--Create a trigger to enforce a rule that CharacterWages must be >= 0.
 
 
 --Practice Q #3
@@ -29,7 +29,7 @@
 
 
 --Practice Q #4
---Create a trigger that enforces a rule that a MovieCharacter` cannot be deleted if their
+--Create a trigger that enforces a rule that a MovieCharacter cannot be deleted if their
 --Agent's AgentFee is >= 50.
 
 
@@ -39,7 +39,7 @@
 
 
 --Practice Q #6
---Create a trigger to **Log when changes are made to the CourseCost in the
+--Create a trigger to Log when changes are made to the CourseCost in the
 --Course table. The changes will be inserted in to the following Logging table:
 CREATE TABLE CourseChanges(
 	LogID 		INT IDENTITY(1,1)	NOT NULL

@@ -49,7 +49,18 @@ CREATE TABLE CourseChanges(
 	NewCourseCost 	MONEY 		    NOT NULL,
 	CourseID 		CHAR(7) 	    NOT NULL
 )
-
+/*
+    +--------------------------+
+    |     CourseChanges        |
+    +---------------+----------+
+    | (PK) LogID    | INT      |
+    |---------------+----------|
+    | ChangeDate    | DATETIME |
+    | OldCourseCost | MONEY    |
+    | NewCourseCost | MONEY    |
+    | CourseID      | CHAR(7)  |
+    +---------------+----------+
+*/
 
 
 /* Triggers Exercise */

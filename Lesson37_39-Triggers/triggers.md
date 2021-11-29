@@ -1,8 +1,84 @@
-# Triggers Exercise
+# Triggers - Practice Queastions
+## Practice Q #1
+Create a trigger associated with an UPDATE to `Student.Balance`. It will:
+1. Issue an informational message to indicate the trigger is executing
+    1. display the contents of the **`INSERTED` table**
+    2. display the contents of the **`DELETED` table**
+    3. display the contents of the **Base table**
+2. Issue a `ROLLBACK TRANSACTION`
+    1. display the contents of the **`INSERTED` table after the `ROLLBACK`**
+    2. display the contents of the **`DELETED` table after the `ROLLBACK`**
+    3. display the contents of the **base table after the `ROLLBACK`**
+3. Issue an informational message to indicate the completion of the trigger
+
+```sql
+
+```
+
+### How to test
+To test:
+1. Issue an update to the `BalanceOwing` column that **violates the data type** of the column being updated.
+2. Issue a valid update to the `BalanceOwing` that affects **one row**.
+3. Issue a valid update to the `BalanceOwing` that affects **multiple rows**.
+4. Issue a valid update to the `BalanceOwing` that affects **zero rows**.
+
+```sql
+
+```
+
+![MovieCharacter_ERD](images/MovieCharacter_ERD.jpg)
+## Practice Q #2
+Create a trigger to enforce a rule that **`CharacterWages` must be >= 0**.
+
+```sql
+
+```
+
+## Practice Q #3
+Create a trigger that enforces a rule that an **`AgentFee` cannot be increased by more than 100% in one update**.
+
+e.g., if the AgentFee was $100, I cannot update it to a value greater than $200.
+
+```sql
+
+```
+
+## Practice Q #4
+Create a trigger that enforces a rule that a **`MovieCharacter` cannot be deleted if their Agent's AgentFee is >= 50**.
+
+```sql
+
+```
+
+## Practice Q #5
+Create a trigger that enforces a rule that an **`Agent` cannot represent more than 2 movie characters**.
+
+```sql
+
+```
+
+## Practice Q #6
+Create a trigger to **Log when changes are made to the `CourseCost`** in the Course table. The changes will be inserted in to the following Logging table:<br>
+![CourseChanges](images/CourseChanges.jpg)
+
+```sql
+CREATE TABLE CourseChanges(
+	LogID 		INT IDENTITY(1,1)	NOT NULL
+	    CONSTRAINT PK_CourseChanges PRIMARY KEY CLUSTERED,
+	ChangeDate 	DATETIME 		    NOT NULL,
+	OldCourseCost 	MONEY 		    NOT NULL,
+	NewCourseCost 	MONEY 		    NOT NULL,
+	CourseID 		CHAR(7) 	    NOT NULL
+)
+```
+
+```sql
+
+```
+
+## Triggers Exercise
 (Use IQSchool DB)
 **NOTE**: These questions are not in order of increasing difficulty.
-
-## Exercise
 1. To be fair to all students, a student can only belong to a maximum of 3 clubs. Create a trigger to enforce this rule.<br>
 
 ```sql

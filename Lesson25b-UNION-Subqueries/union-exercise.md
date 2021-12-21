@@ -1,5 +1,5 @@
-# Union Exercise (using the IQSchool database)
-
+# Union Exercise
+Union Exercise (using the IQSchool database)
 ## Sample Code
 
 ```sql

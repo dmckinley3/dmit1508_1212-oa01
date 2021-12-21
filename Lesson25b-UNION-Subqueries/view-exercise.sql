@@ -1,3 +1,8 @@
+/*
+View Exercise
+Use the IQSchool database for this exercise. If an operation fails write a brief explanation why. Do not just quote the error message genereated by the server!
+*/
+
 -- 1. Create a view of staff full names called Staff_List.
 
 

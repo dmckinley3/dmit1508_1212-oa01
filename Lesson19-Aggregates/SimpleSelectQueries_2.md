@@ -1,4 +1,6 @@
 # Simple Queries 2
+Simple Select Exercise 2
+Use IQSCHOOL Database
 
 ## Exercise Solutions
 1. Select the average Mark from all the Marks in the registration table.<br>

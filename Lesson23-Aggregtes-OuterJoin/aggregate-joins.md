@@ -1,4 +1,5 @@
 # Inner Joins with Aggregates Exercises
+Inner Joins with Aggregates Exercises
 
 ## Sample Code
 

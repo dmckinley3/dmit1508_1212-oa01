@@ -1,4 +1,5 @@
 # Simple Select Exercise 3
+Simple Select Exercise 3
 
 ## Exercise Solutions
 1. Select the average mark for each OfferingCode. Display the OfferingCode and the average mark.<br>

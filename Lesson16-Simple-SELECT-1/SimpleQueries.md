@@ -1,4 +1,6 @@
 # Simple Queries
+SIMPLE SELECT EXERCISE 1
+USE THE IQSCHOOL DATABASE
 
 ## Exercise Solutions
 1.	Select all the information from the club table.<br>

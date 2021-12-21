@@ -1,8 +1,8 @@
 # Subquery Exercise
+Use the IQSchool database for this exercise. Each question must use a subquery in its solution.
+** If the questions could also be solved without a subquery, solve it without one as well **
 
 ## Exercise Solutions
-**If the questions could also be solved without a subquery, solve it without one as well**
-
 1. Select the Payment dates and payment amount for all payments that were Cash.<br>
 
 ```sql

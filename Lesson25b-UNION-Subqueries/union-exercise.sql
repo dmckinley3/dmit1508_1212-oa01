@@ -1,4 +1,8 @@
 /*
+Union Exercise (using the IQSchool database)
+*/
+
+/*
 1. Write a script that will produce the ‘It Happened in October’ display.
 The output of the display is shown below:
 It Happened in October

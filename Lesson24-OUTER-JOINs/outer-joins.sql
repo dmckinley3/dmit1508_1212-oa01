@@ -1,3 +1,7 @@
+/*
+Outer Joins Exercise
+*/
+
 -- 1. Select All position descriptions and the staff ID's that are in those positions.
 
 

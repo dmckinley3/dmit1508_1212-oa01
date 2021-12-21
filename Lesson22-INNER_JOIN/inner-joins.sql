@@ -1,3 +1,7 @@
+/*
+Joins Exercise 1
+*/
+
 -- 1.	Select Student full names and the course ID's they are registered in.
 
 

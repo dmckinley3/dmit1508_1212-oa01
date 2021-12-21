@@ -1,4 +1,9 @@
--- 1.	Select all the information from the club table.
+/*
+SIMPLE SELECT EXERCISE 1
+USE THE IQSCHOOL DATABASE
+*/
+
+- 1.	Select all the information from the club table.
 
 
 -- 2.	Select the FirstNames and LastNames of all the students.

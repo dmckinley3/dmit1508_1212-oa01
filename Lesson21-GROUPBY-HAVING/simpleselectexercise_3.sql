@@ -1,3 +1,7 @@
+/*
+Simple Select Exercise 3
+*/
+
 -- 1. Select the average mark for each OfferingCode.
 --    Display the OfferingCode and the average mark.
 

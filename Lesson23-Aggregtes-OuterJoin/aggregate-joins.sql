@@ -1,3 +1,7 @@
+/*
+Inner Joins with Aggregates Exercises
+*/
+
 -- 1. How many staff are there in each position? Select the number and Position Description.
 
 

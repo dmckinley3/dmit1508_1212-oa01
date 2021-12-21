@@ -1,3 +1,7 @@
+/*
+String and Date Functions Exercise
+*/
+
 -- 1. Select the staff names and the name of the month they were hired.
 
 

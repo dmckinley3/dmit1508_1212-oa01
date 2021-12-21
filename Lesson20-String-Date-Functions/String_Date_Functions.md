@@ -1,4 +1,5 @@
 # String and Date Functions
+String and Date Functions Exercise
 
 ## Exercise Solutions
 1. Select the staff names and the name of the month they were hired.<br>

@@ -1,4 +1,4 @@
-# Triggers - Practice Queastions
+# Triggers - Practice Questions
 ## Practice Q #1
 Create a trigger associated with an UPDATE to `Student.Balance`. It will:
 1. Issue an informational message to indicate the trigger is executing

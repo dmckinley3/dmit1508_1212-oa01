@@ -62,8 +62,11 @@ CREATE TABLE CourseChanges(
     +---------------+----------+
 */
 
-
-/* Triggers Exercise */
+/* 
+Triggers Exercise
+(Use IQSchool DB)
+NOTE: These questions are not in order of increasing difficulty
+*/
 --1. To be fair to all students, a student can only belong to a maximum of 3
 --   clubs. Create a trigger to enforce this rule.
 

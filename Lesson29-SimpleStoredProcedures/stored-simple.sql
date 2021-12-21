@@ -1,3 +1,8 @@
+/*
+Stored Procedure Exercise – Simple
+**Stored Procedure must be the first statement in a batch, so place GO in between each question to execute the previous batch (question) and start another.** Use the IQSchool database.
+*/
+
 --1. Create a stored procedure called “HonorCourses” to select all the course names that have averages > 80%.
 
 

@@ -1,3 +1,7 @@
+/*
+Transaction Exercise
+*/
+
 --1. Create a stored procedure called ‘RegisterStudentTransaction’ that accepts
 --   StudentID and offering code as parameters. If the number of students in that
 --   course and semester are not greater than the Max Students for that course,

@@ -1,5 +1,5 @@
 # Stored Procedure Exercise – Parameters
-**Stored Procedure must be the first statement in a batch, so place GO in between each question to execute the previous batch (question) and start another**. NOTE: all parameters are required. Raise an error message if a parameter is not passed to the procedure. Use the IQSchool database.
+** Stored Procedure must be the first statement in a batch, so place GO in between each question to execute the previous batch (question) and start another **. NOTE: all parameters are required. Raise an error message if a parameter is not passed to the procedure. Use the IQSchool database.
 
 ## Exercise
 1. Create a stored procedure called “GoodCourses” to select all the course names that have averages greater than a given value.<br>

@@ -1,4 +1,6 @@
 # SQL Flow Control and Variables (including exists) Exercise
+SQL Flow Control and Variables (including exists) Exercise
+Use IQSchool tables
 
 ## Exercise Solutions
 1.	Create a stored procedure called StudentClubCount. It will accept a ClubID as a parameter. If the count of students in that club is greater than 2 print ‘A successful club!’. If the count is not greater than 2, print ‘Needs more members!’.<br>

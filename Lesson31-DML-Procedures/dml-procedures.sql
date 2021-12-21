@@ -1,3 +1,8 @@
+/*
+Stored Procedures – DML exercise
+For this exercise you will need a local copy of the IQSchool database.
+*/
+
 --1. Create a stored procedure called ‘AddClub’ to add a new club record.
 
 

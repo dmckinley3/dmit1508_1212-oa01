@@ -1,6 +1,8 @@
 # DELETE EXERCISE
 Use the **Memories Forever** database for this exercise.The current solution has the script to create it if you have not competed the create tables exercise.
 
+If a delete fails write a brief explanation why. Do not just quote the error message genereated by the server!
+
 ## Exercise Solutions
 If a delete fails write a brief explanation why. Do not just quote the error message genereated by the server!
 

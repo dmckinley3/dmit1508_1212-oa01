@@ -1,4 +1,10 @@
 /*
+UPDATE EXERCISE
+Use the Memories Forever database for this exercise.The current solution has the script to create it if you have not competed the create tables exercise.
+If an update fails write a brief explanation why. Do not just quote the error message genereated by the server!
+*/
+
+/*
 1. Update the following records in the ItemType Table:
 +----------------------------------+----------------------------------+
 |            OLD RECORD            |            NEW RECORD            |

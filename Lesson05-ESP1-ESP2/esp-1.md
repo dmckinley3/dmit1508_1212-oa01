@@ -8,6 +8,7 @@ CustomerNumber,FirstName,LastName,Address,City,Province,PostalCode,HomePhone
 ### 2NF:
 CustomerNumber,FirstName,LastName,Address,City,Province,PostalCode,HomePhone
 ### 3NF:
+Customer:
 CustomerNumber,FirstName,LastName,Address,City,Province,PostalCode,HomePhone
 ## Customer Orders View
 ### 0NF:
@@ -23,20 +24,28 @@ Customer,CustomerNumber,Address,Phone,Date,OrderNumber(PK),(ItemNumber,Descripti
 
 **ItemNumber(PK)**,Description,InventoryPrice
 ### 3NF:
+Order:
 **OrderNumber(PK)**,Date,_CustomerNumber(FK)_,Subtotal,GST,Total
 
+Customer:
 **CustomerNumber(PK)**,FirstName,LastName,Address,City,Province,PostalCode,Phone
 
+OrderItem:
 ***OrderNumber(PK)(FK)***,***ItemNumber(PK)(FK)***,Quantity,SellingPrice,Amount
 
+Item:
 **ItemNumber(PK)**,Description,InventoryPrice
 ## Merge:
+Order:
 **OrderNumber(PK)**,Date,_CustomerNumber(FK)_,Subtotal,GST,Total
 
+Customer:
 **CustomerNumber(PK)**,FirstName,LastName,Address,City,Province,PostalCode,Phone
 
+OrderItem:
 ***OrderNumber(PK)(FK)***,***ItemNumber(PK)(FK)***,Quantity,SellingPrice,Amount
 
+Item:
 **ItemNumber(PK)**,Description,InventoryPrice
 
 ## Merged ERD

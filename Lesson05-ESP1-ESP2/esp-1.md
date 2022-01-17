@@ -10,6 +10,9 @@ CustomerNumber,FirstName,LastName,Address,City,Province,PostalCode,HomePhone
 ### 3NF:
 Customer:<br>
 CustomerNumber,FirstName,LastName,Address,City,Province,PostalCode,HomePhone
+
+![esp1-customer](images/esp1-customer.jpg)
+
 ## Customer Orders View
 ### 0NF:
 Customer,CustomerNumber,Address,Phone,Date,OrderNumber(PK),(ItemNumber,Description,Quantity,Price,Amount),Subtotal,GST,Total

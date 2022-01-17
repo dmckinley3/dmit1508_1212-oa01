@@ -9,7 +9,7 @@
 ***OrderNumber(FK)(PK)***,**PaymentNumber(PK)**,PaymentDate,PaymentAmount,BalanceOwing,PaymentType,DepositBatchNumber
 
 ### 2NF:
-*OrderNumber(PK)**,FirstName,LastName,CustomerNumber,OrderDate,OrderTotal
+**OrderNumber(PK)**,FirstName,LastName,CustomerNumber,OrderDate,OrderTotal
 
 ***OrderNumber(FK)(PK)***,**PaymentNumber(PK)**,PaymentDate,PaymentAmount,BalanceOwing,PaymentType,DepositBatchNumbe
 ### 3NF:

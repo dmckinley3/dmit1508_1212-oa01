@@ -38,6 +38,8 @@ OrderItem:<br>
 
 Item:<br>
 **ItemNumber(PK)**,Description,InventoryPrice
+
+![ESP1-MergedERD](images/ESP1-MergedERD.jpg)
 ## Merge:
 Order:<br>
 **OrderNumber(PK)**,Date,_CustomerNumber(FK)_,Subtotal,GST,Total

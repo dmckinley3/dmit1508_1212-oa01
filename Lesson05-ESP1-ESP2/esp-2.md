@@ -2,7 +2,7 @@
 
 ## Payment Log View
 ### 0NF:
-**OrderNumber(PK),CustomerName,CustomerNumber,OrderDate,OrderTotal,(PaymentDate,PaymentAmount,PaymentNumber,BalanceOwing,PaymentType,DepositBatchNumber)
+**OrderNumber(PK)**,CustomerName,CustomerNumber,OrderDate,OrderTotal,(PaymentDate,PaymentAmount,PaymentNumber,BalanceOwing,PaymentType,DepositBatchNumber)
 ### 1NF:
 **OrderNumber(PK)**,FirstName,LastName,CustomerNumber,OrderDate,OrderTotal
 

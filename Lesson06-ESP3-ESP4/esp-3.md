@@ -53,11 +53,52 @@ PurchaseOrder:<br>
 
 ## Purchase Order View
 ### 0NF:
-
+**PurchaseOrderNumber(PK)**,SupplierName,SupplierNumber,SupplierAddress,SupplierCity,SupplierPhone,Date,(ItemNumber,SupplierItemNumber,SupplierItemDescription,Qty,Cost,Amount),SubTotal,GST,Total
 ### 1NF:
+**PurchaseOrderNumber(PK)**,SupplierName,SupplierNumber,SupplierAddress,SupplierCity,Supplierprovince,SupplierPostalCode,SupplierPhone,Date,SubTotal,GST,Total
+
+***PurchaseOrderNumber(FK)(PK)***,**ItemNumber(PK)**,SupplierItemNumber,SupplierItemDescription,Qty,Cost,Amount
 
 ### 2NF:
+**PurchaseOrderNumber(PK)**,SupplierName,SupplierNumber,SupplierAddress,SupplierCity,SupplierProvince,SupplierPostalCode,SupplierPhone,Date,SubTotal,GST,Total
+
+***PurchaseOrderNumber(FK)(PK)***,**ItemNumber(PK)**,SupplierItemNumber,SupplierItemDescription,Qty,Cost,Amount
 
 ### 3NF:
+PurchaseOrder:<br>
+**PurchaseOrderNumber(PK)**,_SupplierNumber(FK)_,Date,SubTotal,GST,Total
+
+Supplier:<br>
+**SupplierNumber(PK)**,SupplierName,SupplierAddress,SupplierCity,SupplierProvince,SupplierPostalCode,SupplierPhone
+
+PurchaseOrderItem:<br>
+***PurchaseOrderNumber(FK)(PK)***,**ItemNumber(PK)**,SupplierItemNumber,SupplierItemDescription,Qty,Cost,Amount
+
+![esp3-purchase-order](images/esp3-purchase-order.jpg)
 
 ## Merge: ESP1+2 + ESP 3
+Order:<br>
+**OrderNumber(PK)**,OrderDate,Subtotal,GST,OrderTotal,_CustomerNumber(FK)_
+
+Customer:<br>
+**CustomerNumber(PK)**,FirstName,LastName,Address,City,Province,PostalCode,Phone
+
+OrderItem:<br>
+***OrderNumber(PK)(FK)***,***ItemNumber(PK)(FK)***,Quantity,SellingPrice,Amount
+
+PurchaseOrderItem:<br>
+***PurchaseOrderNumber(FK)(PK)***,***ItemNumber(FK)(PK)***,SupplierItemNumber,SupplierItemDescription,Quantity,Cost,Amount
+
+Item:<br>
+**ItemNumber(PK)**,Description,InventoryPrice
+
+OrderPayment:<br>
+***OrderNumber(FK)(PK)***,**PaymentNumber(PK)**,PaymentDate,PaymentAmount,BalanceOwing,PaymentType,DepositBatchNumber
+
+PurchaseOrder:<br>
+**PONumber(PK)**,_SupplierNumber(FK)_,Date,SubTotal,GST,Total
+
+Supplier:<br>
+**SupplierNumber(PK)**,SupplierName,SupplierAddress,SupplierCity,SupplierProvince,SupplierPostalCode,SupplierPhone
+
+![esp3-merge](images/esp3-merge.jpg)

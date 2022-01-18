@@ -27,3 +27,8 @@ PurchaseOrder:<br>
 ![esp4-cheque](images/esp4-cheque.jpg)
 
 ## Merge: ESP1+2+3 + ESP 4
+_Complete the final merge with the knowledge you gained._
+
+_Complete the final ERD with the knowledge you have so far._
+
+![esp-draft-final-merge](images/esp-draft-final-merge.jpg)

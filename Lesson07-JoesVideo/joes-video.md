@@ -26,6 +26,9 @@ TransactionVideo:<br>
 Video:<br>
 **VideoId**,Title,CurrentRentalCharge
 
+### ERD
+![JoesVideo-RentalView](images/JoesVideo-RentalView.jpg)
+
 ## Videos View
 ### 0NF:
 **VideoId**,Title,TypeId,TypeName,TotalCopies,Format,Cost,TypeName,CopiesAvailable,CurrentRentalCharge,RatingCode,RatingDescription,(CopyNumber,AvailableForRental)
@@ -56,6 +59,9 @@ Format:<br>
 VideoCopy:<br>
 ***VideoId***,**CopyNumber**,AvailableForRental
 
+### ERD
+![JoesVideo-VideoView](images/JoesVideo-VideoView.jpg)
+
 ## Merge:
 Transaction:<br>
 **TransactionId**,_CustomerId_,Date,SubTotal,GST,Total
@@ -80,3 +86,6 @@ Format:<br>
 
 VideoCopy:<br>
 ***VideoId***,**CopyNumber**,AvailableForRental
+
+### ERD
+![JoesVideo-MergedView](images/JoesVideo-MergedView.jpg)

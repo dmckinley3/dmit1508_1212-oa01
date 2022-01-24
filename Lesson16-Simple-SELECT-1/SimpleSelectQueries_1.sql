@@ -10,7 +10,7 @@ USE THE IQSCHOOL DATABASE
 
 
 -- 3.	Select all the CourseId and CourseName of all the coureses.
---      Use the column aliases of Course ID and Course Name.
+--      Use the column aliases of 'Course ID' and 'Course Name'.
 
 
 -- 4.	Select all the course information for CourseId 'DMIT101'.
@@ -32,14 +32,14 @@ USE THE IQSCHOOL DATABASE
 -- 9.	Select the students first and last names who have last names starting with S.
 
 
--- 10.	Select Coursenames whose CourseID  have a 1 as the fifth character.
+-- 10.	Select Coursenames whose CourseID have a 1 as the fifth character.
 
 
--- 11.	Select the CourseID's and Coursenames where the CourseName contains
+-- 11.	Select the CourseID's and Course names where the CourseName contains
 --      the word 'programming'.
 
 
--- 12.	Select all the ClubNames who start with N or C.
+-- 12.	Select all the ClubNames that start with N or C.
 
 
 -- 13.	Select Student Names, Street Address and City where the

@@ -15,7 +15,7 @@ USE THE IQSCHOOL DATABASE
 
 ```
 
-3.	Select all the CourseId and CourseName of all the coureses. Use the column aliases of Course ID and Course Name.<br>
+3.	Select all the CourseId and CourseName of all the coureses. Use the column aliases of 'Course ID' and 'Course Name'.<br>
 
 ```sql
 
@@ -57,19 +57,19 @@ USE THE IQSCHOOL DATABASE
 
 ```
 
-10.	Select Coursenames whose CourseID  have a 1 as the fifth character.<br>
+10.	Select Coursenames whose CourseID have a 1 as the fifth character.<br>
 
 ```sql
 
 ```
 
-11.	Select the CourseID's and Coursenames where the CourseName contains the word 'programming'.<br>
+11.	Select the CourseID's and Course names where the CourseName contains the word 'programming'.<br>
 
 ```sql
 
 ```
 
-12.	Select all the ClubNames who start with N or C.<br>
+12.	Select all the ClubNames that start with N or C.<br>
 
 ```sql
 

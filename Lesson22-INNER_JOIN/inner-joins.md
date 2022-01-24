@@ -26,7 +26,7 @@ Joins Exercise 1
 
 ```
 
-4.	Select the Student full name, courseID's and marks for studentID 199899200.<br>
+4.	Select the Student full name, Course ID's and marks for studentID 199899200.<br>
 
 ```sql
 
@@ -38,7 +38,7 @@ Joins Exercise 1
 
 ```
 
-6.	Select the CourseID, CourseNames, and the Semesters they have been taught in.<br>
+6.	Select the CourseID, course names, and the Semesters they have been taught in.<br>
 
 ```sql
 
@@ -50,7 +50,7 @@ Joins Exercise 1
 
 ```
 
-8.	What is the course list for student ID 199912010 in semestercode A100? Select the Students Full Name and the CourseNames.<br>
+8.	What is the course list for student ID 199912010 in semestercode A100? Select the Students Full Name and the course names.<br>
 
 ```sql
 

@@ -22,8 +22,8 @@ Simple Select Exercise 3
 
 
 -- 6. Which cities have 2 or more students from them?
---    (HINT, remember that fields that we use in the where 
---    or having do not need to be selected.....)
+--    (HINT, remember that fields that we use in the WHERE 
+--    or HAVING do not need to be selected.....)
 
 
 -- 7. What is the highest, lowest, and average payment amount

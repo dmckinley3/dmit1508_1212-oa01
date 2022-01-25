@@ -85,8 +85,3 @@ CREATE TABLE EmployeeProject(
 )
 GO -- end of a batch
 ```
-
-## Create Table Exercise Solution
-```sql
-
-```

@@ -2,7 +2,7 @@
 
 ## Instructions - DDL 1
 1. Create a script that will create the following 3 tables:<br>
-![create-table-1.png](images/create-table-1.png)<br>
+![create-table-1.jpg](images/create-table-1.jpg)<br>
 <ol type="a">
     <li>Use appropriate data types</li>
     <li>Do not worry about PKs or FKs</li>

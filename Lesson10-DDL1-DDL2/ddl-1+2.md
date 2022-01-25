@@ -10,6 +10,7 @@
     <li>EmployeeIDs are 11 characters long</li>
     <li>Use the IDENTITY property for the ProjectNumber in the Project table but not in the EmployeeProject table. (Why?)</li>
 </ol>
+
 2. List the table definition.
 3. Save your script.
 

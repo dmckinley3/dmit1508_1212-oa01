@@ -29,6 +29,7 @@ Given the following ERD, create all 5 tables with the appropriate primary and fo
 | StudentID |   | YES |
 | ClubID |  | YES |
 
+## Solution
 ```sql
 
 ```

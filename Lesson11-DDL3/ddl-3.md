@@ -6,7 +6,7 @@
 2. Create the Department table as a stand-alone table for now (no relationships to other tables). Use the `IDENTITY` property for the DepartmentNumber.
 3. How would you create a `1:M` relationship between Department and Employee?
 
-![fks_plus_department](images/fks_plus_department.jpg)
+![fks_plus_department](images/fks_plus-department.jpg)
 
 ```sql
 

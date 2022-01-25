@@ -14,7 +14,35 @@
 3. Save your script.
 
 ```sql
+-- Select the database to use
+USE Sample
+GO
 
+-- Drop tables
+DROP TABLE EmployeeProject
+DROP TABLE Project
+DROP TABLE Employee
+GO
+
+-- Create tables
+CREATE TABLE Employee(
+  EmployeeID       CHAR(11)             NOT NULL,
+  LastName         VARCHAR(60)          NOT NULL,
+  FirstName        VARCHAR(60)          NOT NULL
+)
+
+CREATE TABLE Project(
+  ProjectNumber    INT IDENTITY(1,1)    NOT NULL,
+  ProjectName      VARCHAR(60)          NOT NULL,
+  ProjectLocation  VARCHAR(100)         NOT NULL	
+)
+
+CREATE TABLE EmployeeProject(
+  EmployeeID       CHAR(11)             NOT NULL,
+  ProjectNumber    INT                  NOT NULL,
+  WeeklyHours      TINYINT              NOT NULL
+)
+GO -- end of a batch
 ```
 
 ## Instructions - DDL 2
@@ -23,7 +51,38 @@
 3. Save your script.
 
 ```sql
+-- Select the database to use
+USE Sample
+GO
 
+-- Drop tables
+DROP TABLE EmployeeProject
+DROP TABLE Project
+DROP TABLE Employee
+GO
+
+-- Create tables
+CREATE TABLE Employee(
+  EmployeeID       CHAR(11)             NOT NULL
+    CONSTRAINT PK_Employee_EmployeeID PRIMARY KEY CLUSTERED,
+  LastName         VARCHAR(60)          NOT NULL,
+  FirstName        VARCHAR(60)          NOT NULL
+)
+
+CREATE TABLE Project(
+  ProjectNumber    INT IDENTITY(1,1)    NOT NULL
+    CONSTRAINT PK_Project_ProjectNumber PRIMARY KEY CLUSTERED,
+  ProjectName      VARCHAR(60)          NOT NULL,
+  ProjectLocation  VARCHAR(100)         NOT NULL	
+)
+
+CREATE TABLE EmployeeProject(
+  EmployeeID       CHAR(11)             NOT NULL,
+  ProjectNumber    INT                  NOT NULL,
+  WeeklyHours      TINYINT              NOT NULL,
+  CONSTRAINT PK_EmployeeProject_EmployeeID_ProjectNumber PRIMARY KEY CLUSTERED(EmployeeID,ProjectNumber)
+)
+GO -- end of a batch
 ```
 
 ## Create Table Exercise Solution

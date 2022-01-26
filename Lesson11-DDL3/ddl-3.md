@@ -11,8 +11,3 @@
 ```sql
 
 ```
-
-## Create Table Exercise - FK Constraints
-```sql
-
-```
